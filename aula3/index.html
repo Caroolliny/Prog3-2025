@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    
 </head>
 <body>
+    <script src="script.js" defer></script>
     <form method="post">
         <label for="nome">Nome:</label>
         <input type="text" name="none" id="nome" placeholder="Insira seu nome"><br>
@@ -35,14 +37,14 @@
         <br>
 
         <label>Como você vem para a escola:</label>
-        <input type="checkbox" name="publico" value="publico" required>Transporte publico</input>
+        <input type="checkbox" name="publico" value="publico">Transporte publico</input>
         <input type="checkbox" name="privado" value="privado" required>Transporte privado</input>
         <br>
 
-        <!-- Forma 1 -->
-        <button name="Cadastrar">Cadastrar</button>
+        <!-- Forma 1 
+        <button name="Cadastrar">Cadastrar</button>-->
         <!-- Forma 2 -->
-        <input type="submit" name="enviar" value="Cadastrar"></input>
+        <input type="submit" name="enviar" value="Cadastrar" id="botao"></input>
 
     </form>
     

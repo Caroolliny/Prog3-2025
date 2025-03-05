@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="none" id="nome" placeholder="Insira seu nome"><br>
+        </input>
+
+        <label for="idade">Idade:</label>
+        <input type="number" idade="idade" id="idade" placeholder="Insira sua idade" min="0" max="100"><br>
+        </input>
+
+        <label for="born">Nascimento:</label>
+        <input type="date" born ="born" id="born" placeholder="Insira sua data de Nascimento"></input><br>
+
+        <label for="email">Email:</label>
+        <input type="email" email="email" id="email" placeholder="Insira seu email"></input><br>
+
+        <label for="curso">Escola seu curso</label>
+        <select id="curso" name="curso">
+            <option disabled selected>Selecione</option>
+            <option value="info">Informática</option>
+            <option value="qui">Química</option>
+            <option value="amb">Meio Ambiente</option>
+            <option value="adm">Administração</option>
+        </select><br>
+        <label>Informe o turno do seu curso:</label>
+        <input type="radio" name="turno" value="manha">Manhã</input>
+        <input type="radio" name="turno" value="tarde">Tarde</input>
+        <br>
+
+        <label>Como você vem para a escola:</label>
+        <input type="checkbox" name="publico" value="publico" required>Transporte publico</input>
+        <input type="checkbox" name="privado" value="privado" required>Transporte privado</input>
+        <br>
+
+        <!-- Forma 1 -->
+        <button name="Cadastrar">Cadastrar</button>
+        <!-- Forma 2 -->
+        <input type="submit" name="enviar" value="Cadastrar"></input>
+
+    </form>
+    
+</body>
+</html>
